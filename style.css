@@ -25,4 +25,84 @@
   --grey700: hsl(0, 0%, 20%);
   --grey800: hsl(0, 0%, 12%);
   --grey900: hsl(0, 0%, 8%);
+  --main-font: "InterVariable", "Inter";
+}
+
+body {
+  background-color: var(--grey900);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 97vh;
+}
+
+article {
+  background-color: var(--grey800);
+  width: 382px;
+  height: 609px;
+  text-align: center;
+  line-height: 45px;
+  border-radius: 10px;
+}
+
+img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-top: 25px;
+}
+
+h1 {
+  color: var(--white);
+  font-size: 23px;
+  font-family: "Inter";
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.location {
+  color: var(--green);
+  font-family: "Inter";
+  font-size: 15px;
+}
+
+p,
+a {
+  color: var(--white);
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  line-height: 40px;
+}
+
+.sns {
+  background-color: var(--grey700);
+  text-decoration: none;
+}
+
+.attribution {
+  color: var(--white);
+}
+
+/* Make adjacent links stack with 15px spacing */
+article a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  border-radius: 5px;
+  margin: 10px 40px;
+  font-family: "Inter";
+  text-decoration: none;
+}
+
+article a:hover {
+  background-color: var(--green);
+  color: var(--grey900);
+  font-family: "Inter";
 }
