@@ -80,11 +80,9 @@ article a:hover {
 
 Describe how you used AI tools (if any) during this project. This helps demonstrate your ability to work effectively with AI assistants.
 
-- What tools did you use (e.g., ChatGPT, Claude, GitHub Copilot)?
-- How did you use them (e.g., debugging, generating boilerplate, brainstorming solutions)?
-- What worked well? What didn't?
-
-**Note: Delete this note and the content above if you didn't use AI, or replace with your own experience.**
+- What tools did you use (e.g., ChatGPT, Claude, GitHub Copilot)? Github Copilot
+- How did you use them (e.g., debugging, generating boilerplate, brainstorming solutions)? debugging, asking for question
+- What worked well? What didn't? It worked well
 
 ## Author
 
